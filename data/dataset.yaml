@@ -1,0 +1,9 @@
+train: ../custom_dataset/images/train # train images
+val: ../custom_dataset/images/val # val images
+test: ../custom_dataset/images/test # test images (optional)
+
+# whether it is coco dataset, only coco dataset should be set to True.
+is_coco: False
+# Classes
+nc: 8  # number of classes
+names: [ 'Cars', ' Vans', 'Trucks', 'Pedestrians', 'Sitters', 'Cyclists', 'Trams', 'Misc' ]   # class names
